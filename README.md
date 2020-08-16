@@ -52,7 +52,7 @@ Turn y_min_cartesian & y_max_cartesian to elements.
 ### Visualization
 
 
-The first visualization with low resolution and the second one with high resolution are seen below.
+The visualization with low resolution (left) and the high resolution (right) are seen below.
 
 
 
