@@ -17,7 +17,7 @@ Polycrystalline diamond materials, for use in polycrystalline diamond compact (P
 * The user can change the simulation resolution. Two visualiztions are presented in this Kernel.
 
 
-
+The following Steps are taken for developing a computer model for PDC cutter interaction visualization.
 
 #### Step 1:
 Define the size of matrix in accordance with the elements. The matrix is named matrix base MB.
@@ -44,6 +44,18 @@ Turn y_min_cartesian & y_max_cartesian to elements.
 * loop these procedure till get the maximum y element.
 
 
+
+### The first visualization is seen below. The low resolution was applied.
+
+<p align="left">
+  <img width="460" src="Pictures/first_viz.png" >
+</p>
+
+### The second visualization is seen below. The high resolution was applied.
+
+<p align="left">
+  <img width="460" src="Pictures/second_viz.png" >
+</p>
 
 
 
