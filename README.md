@@ -63,4 +63,3 @@ The first visualization with low resolution and the second one with high resolut
 
 
 Reference: https://petrowiki.org/PDC_drill_bits
-Reference PDC bit picture: https://www.bhge.com/upstream/drilling/drill-bits/pdc-drill-bits
