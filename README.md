@@ -51,11 +51,11 @@ Turn y_min_cartesian & y_max_cartesian to elements.
 The first visualization with low resolution and second one with high resolution are seen below.
 
 
+
 <p float="left">
   <img width="460" src="Pictures/first_viz.png" >
   <img width="460" src="Pictures/second_viz.png" >
 </p>
-
 
 
 Reference: https://petrowiki.org/PDC_drill_bits
