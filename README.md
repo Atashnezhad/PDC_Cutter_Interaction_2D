@@ -1,5 +1,5 @@
 # PDC_Cutter_Interaction_2D
-
+---
 <p align="center">
   <img width="460" src="Pictures/PDCbit.png" >
 </p>
@@ -16,7 +16,8 @@ Polycrystalline diamond materials, for use in polycrystalline diamond compact (P
 * The computer model was developed in R.
 * The user can change the simulation resolution. Two visualiztions are presented in this Kernel.
 
-
+---
+### Steps for modeling:
 The following Steps are taken for developing a computer model for PDC cutter interaction visualization.
 
 #### Step 1:
@@ -44,14 +45,16 @@ Turn y_min_cartesian & y_max_cartesian to elements.
 * loop these procedure till get the maximum y element.
 
 
+### Visualization
+---
 
-### The first visualization is seen below. The low resolution was applied.
+* The first visualization is seen below. The low resolution was applied.
 
 <p align="left">
   <img width="460" src="Pictures/first_viz.png" >
 </p>
 
-### The second visualization is seen below. The high resolution was applied.
+* The second visualization is seen below. The high resolution was applied.
 
 <p align="left">
   <img width="460" src="Pictures/second_viz.png" >
