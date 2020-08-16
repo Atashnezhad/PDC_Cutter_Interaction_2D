@@ -1,8 +1,12 @@
 # PDC_Cutter_Interaction_2D
 ---
-<p align="center">
-  <img width="460" src="Pictures/PDCbit.png" >
+
+
+<p float="left">
+  <img width="400" src="Pictures/first_viz.png" >
+  <img width="400" src="Pictures/second_viz.png" >
 </p>
+
 
  A computer model was developed for visualization PDC cutter interaction.
  
