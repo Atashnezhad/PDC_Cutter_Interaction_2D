@@ -44,9 +44,9 @@ Turn y_min_cartesian & y_max_cartesian to elements.
 * turn both the y and x to Matrix base coordinate and update the Matrix base.
 * loop these procedure till get the maximum y element.
 
-
-### Visualization
 ---
+### Visualization
+
 
 * The first visualization is seen below. The low resolution was applied.
 
