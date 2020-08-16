@@ -48,20 +48,13 @@ Turn y_min_cartesian & y_max_cartesian to elements.
 ### Visualization
 
 
-* The first visualization is seen below. The low resolution was applied.
+The first visualization with low resolution and second one with high resolution are seen below.
 
-<p align="left">
+
+<p float="left">
   <img width="460" src="Pictures/first_viz.png" >
-</p>
-
-* The second visualization is seen below. The high resolution was applied.
-
-<p align="left">
   <img width="460" src="Pictures/second_viz.png" >
 </p>
-
-
-
 
 
 
