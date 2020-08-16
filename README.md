@@ -53,8 +53,8 @@ The first visualization with low resolution and second one with high resolution 
 
 
 <p float="left">
-  <img width="460" src="Pictures/first_viz.png" >
-  <img width="460" src="Pictures/second_viz.png" >
+  <img width="400" src="Pictures/first_viz.png" >
+  <img width="400" src="Pictures/second_viz.png" >
 </p>
 
 
