@@ -21,7 +21,7 @@ Polycrystalline diamond materials, for use in polycrystalline diamond compact (P
 * The user can change the simulation resolution. Two visualizations are presented in this Kernel.
 
 ---
-### Steps for modeling:
+### Steps for modeling
 The following steps are taken for developing a computer model for PDC cutter interaction visualization.
 
 #### Step 1:
