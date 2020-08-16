@@ -1,4 +1,4 @@
-# PDC_Cutter_Interaction_2D
+# A 2-dimentional PDC Cutter Interaction visualization 
 ---
 
 
@@ -16,28 +16,28 @@ Polycrystalline diamond materials, for use in polycrystalline diamond compact (P
 * The cutter positions including the distance from the bit center and hight are taken into account.
 * The PDC cutter interaction model uses matrixes for simulating the position of cutters.
 * The matrix is initialized with zero and is updated to new values taking the cutters positions into account.
-* The regions with higher cutter interactions are lighter (white) compares to regions with less interactions (black).
+* The regions with higher cutter interactions are lighter (white) compares to regions with fewer interactions (black).
 * The computer model was developed in R.
-* The user can change the simulation resolution. Two visualiztions are presented in this Kernel.
+* The user can change the simulation resolution. Two visualizations are presented in this Kernel.
 
 ---
 ### Steps for modeling:
-The following Steps are taken for developing a computer model for PDC cutter interaction visualization.
+The following steps are taken for developing a computer model for PDC cutter interaction visualization.
 
 #### Step 1:
-Define the size of matrix in accordance with the elements. The matrix is named matrix base MB.
+Define the size of the matrix in accordance with the elements. The matrix is named matrix base MB.
 
 #### Step 2
 Define the simulation resolution.
 
 #### Step 3:
-Define base matrix.
+Define the base matrix.
 
 #### Step 4:
 Define the shape function (i.e. circle) and rearrange it base on x.
 
 #### Step 5:
-Define the min and max of shape in cartesian coordinate. The circles are on top of x axie and therefore the y min is 0 and the y max is Dc.
+Define the min and max of shape in the cartesian coordinate. The circles are on top of the x-axis and therefore the y min is 0 and the y max is Dc.
 
 #### Step 6:
 Turn y_min_cartesian & y_max_cartesian to elements.
@@ -46,13 +46,13 @@ Turn y_min_cartesian & y_max_cartesian to elements.
 * turn it to cartesian value; plug it into the circle equation.
 * calculate the x in cartesian; turn it back to elements.
 * turn both the y and x to Matrix base coordinate and update the Matrix base.
-* loop these procedure till get the maximum y element.
+* loop these procedures till getting the maximum y element.
 
 ---
 ### Visualization
 
 
-The first visualization with low resolution and second one with high resolution are seen below.
+The first visualization with low resolution and the second one with high resolution are seen below.
 
 
 
