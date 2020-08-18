@@ -7,7 +7,7 @@
   <img width="400" src="Pictures/second_viz.png" >
 </p>
 
-#### Above picture is two Simulations generated in this project for PDC bit with 16 PDC cutters.
+Above pictures: **Two Simulations generated in this project for PDC bit with 16 cutters.**
 
 A computer model was developed for visualization PDC cutter interaction.
  
