@@ -7,8 +7,9 @@
   <img width="400" src="Pictures/second_viz.png" >
 </p>
 
+#### Above picture is two Simulations generated in this project for PDC bit with 16 PDC cutters.
 
- A computer model was developed for visualization PDC cutter interaction.
+A computer model was developed for visualization PDC cutter interaction.
  
 Polycrystalline diamond materials, for use in polycrystalline diamond compact (PDC) bits, are one of the most important material advances for oil drilling tools in recent years. Fixed-head bits rotate as one piece and contain no separately moving parts. When fixed-head bits use PDC cutters, they are commonly called PDC bits. Since their first production in 1976, the popularity of bits using PDC cutters has grown steadily, and they are nearly as common as roller-cone bits in many drilling applications.
 
