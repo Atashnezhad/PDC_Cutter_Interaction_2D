@@ -25,29 +25,18 @@ Polycrystalline diamond materials, for use in polycrystalline diamond compact (P
 ### Steps for modeling
 The following steps are taken for developing a computer model for PDC cutter interaction visualization.
 
-#### Step 1:
-Define the size of the matrix in accordance with the elements. The matrix is named matrix base MB.
+* Step 1: Define the size of the matrix in accordance with the elements. The matrix is named matrix base MB.
+* Step 2: Define the simulation resolution.
+* Step 3: Define the base matrix.
+* Step 4: Define the shape function (i.e. circle) and rearrange it base on x.
+* Step 5: Define the min and max of shape in the cartesian coordinate. The circles are on top of the x-axis and therefore the y min is 0 and the y max is Dc.
+* Step 6: Turn y_min_cartesian & y_max_cartesian to elements:
 
-#### Step 2
-Define the simulation resolution.
-
-#### Step 3:
-Define the base matrix.
-
-#### Step 4:
-Define the shape function (i.e. circle) and rearrange it base on x.
-
-#### Step 5:
-Define the min and max of shape in the cartesian coordinate. The circles are on top of the x-axis and therefore the y min is 0 and the y max is Dc.
-
-#### Step 6:
-Turn y_min_cartesian & y_max_cartesian to elements.
-
-* start for y from down (y_min_elements=0).
-* turn it to cartesian value; plug it into the circle equation.
-* calculate the x in cartesian; turn it back to elements.
-* turn both the y and x to Matrix base coordinate and update the Matrix base.
-* loop these procedures till getting the maximum y element.
+  * start for y from down (y_min_elements=0).
+  * turn it to cartesian value; plug it into the circle equation.
+  * calculate the x in cartesian; turn it back to elements.
+  * turn both the y and x to Matrix base coordinate and update the Matrix base.
+  * loop these procedures till getting the maximum y element.
 
 ---
 ### Visualization
