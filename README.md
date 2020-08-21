@@ -31,7 +31,6 @@ The following steps are taken for developing a computer model for PDC cutter int
 * Step 4: Define the shape function (i.e. circle) and rearrange it base on x.
 * Step 5: Define the min and max of shape in the cartesian coordinate. The circles are on top of the x-axis and therefore the y min is 0 and the y max is Dc.
 * Step 6: Turn y_min_cartesian & y_max_cartesian to elements:
-
   * start for y from down (y_min_elements=0).
   * turn it to cartesian value; plug it into the circle equation.
   * calculate the x in cartesian; turn it back to elements.
